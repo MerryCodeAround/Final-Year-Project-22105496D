@@ -1,8 +1,10 @@
 # Final Year Project - project description
  Hi! I am Morris. This is my Final year project of electrical engineering degree, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
 Contents:
-[lift estimation program](#Unity-Project)
-
+- [Generating Synthetic Data with Unity](#Unity-Project)
+- [Training Data](#Training-Data)
+- [lift estimation program](#lift-estimation-program)
+- Pictures (storing images in this README)
 
 ### Unity Project
 Contain all the custome code and scene setups. This is a Unity Universal Rendering Pipeline from the templates. The assets used are:
