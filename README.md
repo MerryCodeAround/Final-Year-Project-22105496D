@@ -44,10 +44,9 @@ There several iteration of dataset at different stages of the project, each with
 |lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
 
 ## Python Codes
-I was originally using Notepad++ as my text editor, and command prompt to execute the files. But I was met with version conflicts among python modules, and the "NppExec Console" failed me. So I switched to using Anaconda and Spyder for my development environment.
+I was originally using Notepad++ as my text editor, and command prompt to execute the files. But I was met with version conflicts among python modules, and the "NppExec Console" failed me. So I switched to using Anaconda and Spyder for my development environment. My environment is saved as "my_environment.yaml" for your reference, so it saves time to install different python modules. 
 
-
-Contain all image processing and computer vision python code 
+After setting up Unity, we can finally open the program in this repository. It contains all the image processing and computer vision python code in ascending versions. 
 
 **Ver 1**
 - read images
