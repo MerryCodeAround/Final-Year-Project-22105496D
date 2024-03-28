@@ -1,8 +1,10 @@
-# Final Year Project
+# Final Year Project - project description
  Hi! I am Morris. This is my Final year project of electrical engineering degree, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
+Contents:
+- lift estimation program (##Unity Project)
 
-# File structure
-## Unity Project
+
+### Unity Project
 Contain all the custome code and scene setups. This is a Unity Universal Rendering Pipeline from the templates. The assets used are:
 - Unity perception package: https://docs.unity3d.com/Packages/com.unity.perception@1.0/manual/index.html
 - 3D passenger models: https://sketchfab.com/renderpeople
@@ -19,7 +21,7 @@ The main camera and scenario game object and hierarchy. Basically, each 'pos' ar
 
 <img src="/pictures/mainCameraSetting.jpg" height="400"><img src="/pictures/scenarioSetting.jpg" height="400"><img src="/pictures/hierarchySetting.jpg" height="400">
 
-## Training data
+### Training data
 Contain all results from image generation from Unity project. Each iteration contain 4 files:
 
 <img src="/pictures/floorMask.png" width="50%"><img src="/pictures/passengerMask.png" width="50%"><img src="/pictures/camera.png" width="50%"><img src="/pictures/jsonFile.jpg" width="50%">
@@ -31,33 +33,33 @@ Contain all results from image generation from Unity project. Each iteration con
 |lift test 3|grey floor, 960 x 540 px, 50 samples|
 |lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
 
-## Python Codes
+### Python Codes
 Contain all image processing and computer vision python code 
 
-### Ver 1
+**Ver 1**
 - read images
 - retrieve passenger number, actual floor area from json file
 - estimate floor area using colour thresholding
 - plot scatter dot diagram for estimation and actual floor area
 - plot linear regressed diagram for estimation and actual floor area 
 
-### Ver 2
+**Ver 2**
 - added background subtraction (useless)
 - added edge detection to extract floor area
 
-### Ver 3
+**Ver 3**
 - tried using fuzzy logic controller. original idea is to:
 	- input the floor area 
 	- input passenger area to receive a 
 - but don't know how to implement (how to set the fuzzy rule and output)
 
-### Ver 4
+**Ver 4**
 - tried to implement neural network for detecting handwritten numbers
 - tried to edit the network to detect person on lift
 - IDFK
 - Version 4d combined all previous work
 
-### Ver 5
+**Ver 5**
 - using YOLO v8.1 for detecting person on lift
 - https://github.com/ultralytics/ultralytics?tab=readme-ov-file
 - it has pre-trained model for detecting people
