@@ -1,5 +1,5 @@
 # Final Year Project
- Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
+ Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**". Since the code, dataset, and results are in different file formats, I decided to create this Github repository to better manage the project structure. Nonetheless, the directory in the program files are probably wrong, so... ~~it's just for show~~
  
 ### Repository Contents
 - [Generating Synthetic Data with Unity](#Unity-Project)
@@ -42,6 +42,9 @@ There several iteration of dataset at different stages of the project, each with
 |lift test 2|green floor, 320 x 180 px, 200 samples|
 |lift test 3|grey floor, 960 x 540 px, 50 samples|
 |lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
+
+Notice that for "lift test 4", to accomodate for YOLO model training, it is rearranged to the following file structure. 
+![Image 1](/pictures/YOLOformat.png)
 
 ## Python Codes
 I was originally using Notepad++ as my text editor, and command prompt to execute the files. But I was met with version conflicts among python modules, and the "NppExec Console" failed me. So I switched to using Anaconda and Spyder for my development environment. My environment is saved as "my_environment.yaml" for your reference, so it saves time to install different python modules. 
