@@ -1,5 +1,5 @@
 # Final Year Project
- Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**". Since the code, dataset, and results are in different file formats, I decided to create this Github repository to better manage the project structure. Nonetheless, the directory in the program files are probably wrong, so... ~~it's just for show~~
+ Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "***Estimation of Available Space in Elevator using Image Processing and Machine Learning***". Since the code, dataset, and results are in different file formats, I decided to create this Github repository to better manage the project structure. Nonetheless, the directory in the program files are probably wrong, so... ~~it's just for show~~
  
 ### Repository Contents
 - [Generating Synthetic Data with Unity](#Unity-Project)
