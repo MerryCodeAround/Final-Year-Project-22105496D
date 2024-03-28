@@ -1,6 +1,6 @@
 # Final Year Project
  Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
-<span style="font-size:0.5em;">Repository Contents</span>
+###Repository Contents
 - [Generating Synthetic Data with Unity](#Unity-Project)
 - [Training Data](#Training-Data)
 - [lift estimation program](#lift-estimation-program)
