@@ -1,0 +1,15 @@
+{
+  "sensorDefinitions": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "modality": "camera",
+      "description": "",
+      "firstCaptureFrame": 2.0,
+      "captureTriggerMode": "Scheduled",
+      "simulationDeltaTime": 2.0,
+      "framesBetweenCaptures": 5,
+      "manualSensorsAffectTiming": false
+    }
+  ]
+}

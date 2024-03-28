@@ -1,0 +1,30 @@
+{
+  "unityVersion": "2022.3.11f1",
+  "perceptionVersion": "1.0.0-preview.1",
+  "renderPipeline": "HDRP",
+  "simulationStartTime": "13/1/2024 12:22:45 PM",
+  "scenarioRandomSeed": 539662031,
+  "scenarioActiveRandomizers": [
+    "MySpawnRandomizer"
+  ],
+  "totalFrames": 201,
+  "totalSequences": 201,
+  "sensors": [
+    "camera"
+  ],
+  "metricCollectors": [
+    "scenario_iteration",
+    "random-seed"
+  ],
+  "simulationEndTime": "13/1/2024 12:23:21 PM",
+  "annotators": [
+    {
+      "name": "passenger",
+      "type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation"
+    },
+    {
+      "name": "floor",
+      "type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation"
+    }
+  ]
+}

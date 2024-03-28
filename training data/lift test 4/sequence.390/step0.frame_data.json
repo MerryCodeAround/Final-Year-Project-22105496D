@@ -1,0 +1,359 @@
+{
+  "frame": 1947,
+  "sequence": 390,
+  "step": 0,
+  "timestamp": 0.0,
+  "captures": [
+    {
+      "@type": "type.unity.com/unity.solo.RGBCamera",
+      "id": "camera",
+      "description": "",
+      "position": [
+        2.91,
+        9.7,
+        -3.14
+      ],
+      "rotation": [
+        0.384066731,
+        -0.331382155,
+        0.149973065,
+        0.8486382
+      ],
+      "velocity": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "acceleration": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "filename": "step0.camera.png",
+      "imageFormat": "Png",
+      "dimension": [
+        320.0,
+        180.0
+      ],
+      "projection": "Perspective",
+      "matrix": [
+        0.5835039,
+        0.0,
+        0.0,
+        0.0,
+        1.03734028,
+        0.0,
+        0.0,
+        0.0,
+        -1.0006001
+      ],
+      "annotations": [
+        {
+          "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+          "id": "floor",
+          "sensorId": "camera",
+          "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras.",
+          "imageFormat": "Png",
+          "dimension": [
+            320.0,
+            180.0
+          ],
+          "filename": "step0.camera.floor.png",
+          "instances": [
+            {
+              "labelName": "floor",
+              "pixelValue": [
+                0,
+                255,
+                0,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+          "id": "passenger",
+          "sensorId": "camera",
+          "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras.",
+          "imageFormat": "Png",
+          "dimension": [
+            320.0,
+            180.0
+          ],
+          "filename": "step0.camera.passenger.png",
+          "instances": [
+            {
+              "labelName": "pos",
+              "pixelValue": [
+                255,
+                0,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (1)",
+              "pixelValue": [
+                255,
+                115,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (2)",
+              "pixelValue": [
+                255,
+                234,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (3)",
+              "pixelValue": [
+                162,
+                255,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (4)",
+              "pixelValue": [
+                47,
+                255,
+                0,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (6)",
+              "pixelValue": [
+                0,
+                255,
+                187,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (7)",
+              "pixelValue": [
+                0,
+                208,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (8)",
+              "pixelValue": [
+                0,
+                94,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (9)",
+              "pixelValue": [
+                21,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (10)",
+              "pixelValue": [
+                140,
+                0,
+                255,
+                255
+              ]
+            },
+            {
+              "labelName": "pos (11)",
+              "pixelValue": [
+                255,
+                0,
+                255,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+          "id": "bounding box",
+          "sensorId": "camera",
+          "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+          "values": [
+            {
+              "instanceId": 28,
+              "labelId": 10,
+              "labelName": "pos (9)",
+              "origin": [
+                95.0,
+                45.0
+              ],
+              "dimension": [
+                48.0,
+                84.0
+              ]
+            },
+            {
+              "instanceId": 30,
+              "labelId": 2,
+              "labelName": "pos (1)",
+              "origin": [
+                162.0,
+                20.0
+              ],
+              "dimension": [
+                36.0,
+                100.0
+              ]
+            },
+            {
+              "instanceId": 34,
+              "labelId": 11,
+              "labelName": "pos (10)",
+              "origin": [
+                101.0,
+                34.0
+              ],
+              "dimension": [
+                50.0,
+                103.0
+              ]
+            },
+            {
+              "instanceId": 20,
+              "labelId": 4,
+              "labelName": "pos (3)",
+              "origin": [
+                197.0,
+                39.0
+              ],
+              "dimension": [
+                43.0,
+                53.0
+              ]
+            },
+            {
+              "instanceId": 26,
+              "labelId": 1,
+              "labelName": "pos",
+              "origin": [
+                142.0,
+                8.0
+              ],
+              "dimension": [
+                8.0,
+                37.0
+              ]
+            },
+            {
+              "instanceId": 5,
+              "labelId": 12,
+              "labelName": "pos (11)",
+              "origin": [
+                171.0,
+                155.0
+              ],
+              "dimension": [
+                49.0,
+                25.0
+              ]
+            },
+            {
+              "instanceId": 19,
+              "labelId": 9,
+              "labelName": "pos (8)",
+              "origin": [
+                71.0,
+                45.0
+              ],
+              "dimension": [
+                61.0,
+                84.0
+              ]
+            },
+            {
+              "instanceId": 11,
+              "labelId": 5,
+              "labelName": "pos (4)",
+              "origin": [
+                121.0,
+                24.0
+              ],
+              "dimension": [
+                28.0,
+                78.0
+              ]
+            },
+            {
+              "instanceId": 29,
+              "labelId": 7,
+              "labelName": "pos (6)",
+              "origin": [
+                138.0,
+                18.0
+              ],
+              "dimension": [
+                31.0,
+                100.0
+              ]
+            },
+            {
+              "instanceId": 18,
+              "labelId": 8,
+              "labelName": "pos (7)",
+              "origin": [
+                170.0,
+                42.0
+              ],
+              "dimension": [
+                69.0,
+                103.0
+              ]
+            },
+            {
+              "instanceId": 1,
+              "labelId": 3,
+              "labelName": "pos (2)",
+              "origin": [
+                163.0,
+                35.0
+              ],
+              "dimension": [
+                34.0,
+                85.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "scenario_iteration",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "Iteration information for dataset sequences",
+      "value": 389
+    },
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "random-seed",
+      "sensorId": "",
+      "annotationId": "",
+      "description": "The random seed used to initialize the random state of the simulation. Only triggered once per simulation.",
+      "value": 539662031
+    }
+  ]
+}

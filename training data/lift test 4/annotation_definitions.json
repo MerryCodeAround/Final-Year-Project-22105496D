@@ -1,0 +1,69 @@
+{
+  "annotationDefinitions": [
+    {
+      "@type": "type.unity.com/unity.solo.BoundingBox2DAnnotation",
+      "id": "bounding box",
+      "description": "Produces 2D bounding box annotations for all visible objects that bear a label defined in this labeler's associated label configuration.",
+      "spec": [
+        {
+          "label_id": 1,
+          "label_name": "pos"
+        },
+        {
+          "label_id": 2,
+          "label_name": "pos (1)"
+        },
+        {
+          "label_id": 3,
+          "label_name": "pos (2)"
+        },
+        {
+          "label_id": 4,
+          "label_name": "pos (3)"
+        },
+        {
+          "label_id": 5,
+          "label_name": "pos (4)"
+        },
+        {
+          "label_id": 6,
+          "label_name": "pos (5)"
+        },
+        {
+          "label_id": 7,
+          "label_name": "pos (6)"
+        },
+        {
+          "label_id": 8,
+          "label_name": "pos (7)"
+        },
+        {
+          "label_id": 9,
+          "label_name": "pos (8)"
+        },
+        {
+          "label_id": 10,
+          "label_name": "pos (9)"
+        },
+        {
+          "label_id": 11,
+          "label_name": "pos (10)"
+        },
+        {
+          "label_id": 12,
+          "label_name": "pos (11)"
+        }
+      ]
+    },
+    {
+      "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+      "id": "passenger",
+      "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras."
+    },
+    {
+      "@type": "type.unity.com/unity.solo.SemanticSegmentationAnnotation",
+      "id": "floor",
+      "description": "Generates a semantic segmentation image for each captured frame. Each object is rendered to the semantic segmentation image using the color associated with it based on this labeler's associated semantic segmentation label configuration. Semantic segmentation images are saved to the dataset in PNG format. Please note that only one SemanticSegmentationLabeler can render at once across all cameras."
+    }
+  ]
+}
