@@ -44,6 +44,9 @@ There several iteration of dataset at different stages of the project, each with
 |lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
 
 ## Python Codes
+I was originally using Notepad++ as my text editor, and command prompt to execute the files. But I was met with version conflicts among python modules, and the "NppExec Console" failed me. So I switched to using Anaconda and Spyder for my development environment.
+
+
 Contain all image processing and computer vision python code 
 
 **Ver 1**
