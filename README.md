@@ -1,6 +1,6 @@
-# Final Year Project - project description
- Hi! I am Morris. This is my Final year project of electrical engineering degree, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
-Contents:
+# Final Year Project
+ Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
+<span style="font-size:0.5em;">Repository Contents</span>
 - [Generating Synthetic Data with Unity](#Unity-Project)
 - [Training Data](#Training-Data)
 - [lift estimation program](#lift-estimation-program)
@@ -47,12 +47,14 @@ Contain all image processing and computer vision python code
 
 **Ver 2**
 - added background subtraction (useless)
-- added edge detection to extract floor area
+- added edge detection to extract floor area (useless)
 
 **Ver 3**
 - tried using fuzzy logic controller. original idea is to:
 	- input the floor area 
-	- input passenger area to receive a 
+	- input passenger area 
+	- create membership, and fuzzy rule
+	- generate result
 - but don't know how to implement (how to set the fuzzy rule and output)
 
 **Ver 4**
