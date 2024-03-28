@@ -7,7 +7,7 @@
 - [lift estimation program](#lift-estimation-program)
 - Pictures (storing images in this README)
 
-### Unity Project
+## Unity Project
 Contain all the custome code and scene setups. This is a Unity Universal Rendering Pipeline from the templates. The assets used are:
 - Unity perception package: https://docs.unity3d.com/Packages/com.unity.perception@1.0/manual/index.html
 - 3D passenger models: https://sketchfab.com/renderpeople
@@ -19,17 +19,13 @@ The lift model is imported with .obj file only since the texture and lighting ar
 | :---: | :---: |
 | ![Image 1](/pictures/areaLightSetting.jpg) | ![Image 2](/pictures/directionalLightSetting.jpg) |
 
-<img src="/pictures/areaLightSetting.jpg" height="500"><img src="/pictures/directionalLightSetting.jpg" height="500">
-
 The main camera and scenario game object and hierarchy. Basically, each 'pos' are the center of a rectangle, and the passenger is spawn randomly within the rectangle. The spawning is done by the "mySpawnRandomizer.cs" and "mySpawnRandomizerTag.cs", found within the folder. The following images showed the perception camera setting, scenario setting, and hierarchy of the 3D scene. 
 
 | **Perception Camera Setting** | **Scenario Setting** | **Hierarchy Setting** |
 | :---: | :---: | :---: |
 | ![Image 1](/pictures/mainCameraSetting.jpg) | ![Image 2](/pictures/scenarioSetting.jpg) | ![Image 3](/pictures/hierarchySetting.jpg)
 
-<img src="/pictures/mainCameraSetting.jpg" height="400"><img src="/pictures/scenarioSetting.jpg" height="400"><img src="/pictures/hierarchySetting.jpg" height="400">
-
-### Training data
+## Training data
 Contain all results from image generation from Unity project. Each iteration contain 4 files:
 
 | **Synthetic Image** | **Passenger Mask** |
@@ -47,7 +43,7 @@ There several iteration of dataset at different stages of the project, each with
 |lift test 3|grey floor, 960 x 540 px, 50 samples|
 |lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
 
-### Python Codes
+## Python Codes
 Contain all image processing and computer vision python code 
 
 **Ver 1**
