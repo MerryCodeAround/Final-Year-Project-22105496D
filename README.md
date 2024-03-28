@@ -1,5 +1,6 @@
 # Final Year Project
  Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
+ 
 ###Repository Contents
 - [Generating Synthetic Data with Unity](#Unity-Project)
 - [Training Data](#Training-Data)
@@ -25,6 +26,16 @@ The main camera and scenario game object and hierarchy. Basically, each 'pos' ar
 
 ### Training data
 Contain all results from image generation from Unity project. Each iteration contain 4 files:
+
+| Image 1 | Image 2 |
+|---------|---------|
+| ![Image 1](/pictures/camera.jpg) | ![Image 2](/pictures/passengerMack.png) |
+| Caption for Image 1: The original input image. | Caption for Image 2: The result of edge detection applied to the input image. |
+
+| Image 3 | Image 4 |
+|---------|---------|
+| ![Image 3](/pictures/floorMack.png) | ![Image 4](jsonFile.jpg) |
+| Caption for Image 3: The binary mask obtained after thresholding the edge image. | Caption for Image 4: The final segmented output image after post-processing. |
 
 <img src="/pictures/floorMask.png" width="50%"><img src="/pictures/passengerMask.png" width="50%"><img src="/pictures/camera.png" width="50%"><img src="/pictures/jsonFile.jpg" width="50%">
 
