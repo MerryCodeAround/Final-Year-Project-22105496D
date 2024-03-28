@@ -1,7 +1,7 @@
 # Final Year Project
  Hi! I am Morris. This is my Final year project of electrical engineering degree at PolyU, about image processing and computer vision. The title is "**Estimation of Available Space in Elevator using Image Processing and Machine Learning**"
  
-###Repository Contents
+### Repository Contents
 - [Generating Synthetic Data with Unity](#Unity-Project)
 - [Training Data](#Training-Data)
 - [lift estimation program](#lift-estimation-program)
@@ -13,14 +13,19 @@ Contain all the custome code and scene setups. This is a Unity Universal Renderi
 - 3D passenger models: https://sketchfab.com/renderpeople
 - 3D lift model: created with Blender
 
-> [!NOTE]
-> The lift model is imported with .obj file only since the texture and lighting are not very good if they are imported in .fbx.
+The lift model is imported with .obj file only since the texture and lighting are not very good if they are imported in .fbx. An area light and a directional light are place on top of the lift. Their settings are:
 
-An area light and a directional light are place on top of the lift. Their settings are:
+| **Area Light Setting** | **Direction Light Setting** |
+| :---: | :---: |
+| ![Image 1](/pictures/areaLightSetting.jpg) | ![Image 2](/pictures/directionalLightSetting.jpg) |
 
 <img src="/pictures/areaLightSetting.jpg" height="500"><img src="/pictures/directionalLightSetting.jpg" height="500">
 
-The main camera and scenario game object and hierarchy. Basically, each 'pos' are the center of a rectangle, and the passenger is spawn randomly within the rectangle. The spawning is done by the "mySpawnRandomizer.cs" and "mySpawnRandomizerTag.cs"
+The main camera and scenario game object and hierarchy. Basically, each 'pos' are the center of a rectangle, and the passenger is spawn randomly within the rectangle. The spawning is done by the "mySpawnRandomizer.cs" and "mySpawnRandomizerTag.cs", found within the folder. The following images showed the perception camera setting, scenario setting, and hierarchy of the 3D scene. 
+
+| **Perception Camera Setting** | **Scenario Setting** | **Hierarchy Setting** |
+| :---: | :---: | :---: |
+| ![Image 1](/pictures/mainCameraSetting.jpg) | ![Image 2](/pictures/scenarioSetting.jpg) | ![Image 3](/pictures/hierarchySetting.jpg)
 
 <img src="/pictures/mainCameraSetting.jpg" height="400"><img src="/pictures/scenarioSetting.jpg" height="400"><img src="/pictures/hierarchySetting.jpg" height="400">
 
@@ -32,6 +37,8 @@ Contain all results from image generation from Unity project. Each iteration con
 | ![Image 1](/pictures/camera.png) | ![Image 2](/pictures/passengerMask.png) |
 | **Floor Mask** | **JSON file (annotations)** |
 | ![Image 3](/pictures/floorMask.png) | ![Image 4](/pictures/jsonFile.jpg) |
+
+There several iteration of dataset at different stages of the project, each with their own descriptions
 
 |Training Data|Description|
 |---|:---|
@@ -63,16 +70,14 @@ Contain all image processing and computer vision python code
 - but don't know how to implement (how to set the fuzzy rule and output)
 
 **Ver 4**
-- tried to implement neural network for detecting handwritten numbers
-- tried to edit the network to detect person on lift
-- IDFK
-- Version 4d combined all previous work
+- tried to combine all previous works
+- to implement neural network from scratch (failed miserably)
 
 **Ver 5**
-- using YOLO v8.1 for detecting person on lift
-- https://github.com/ultralytics/ultralytics?tab=readme-ov-file
+- using YOLO v8 for detecting person on lift, their website: https://github.com/ultralytics/ultralytics?tab=readme-ov-file
 - it has pre-trained model for detecting people
 - also added GUI with Tkinter library
+- also uses custom trained model
 
 
 
