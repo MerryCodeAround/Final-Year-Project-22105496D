@@ -27,12 +27,9 @@ Contain all results from image generation from Unity project. Each iteration con
 |Training Data|Description|
 |---|:---|
 |lift test 1|originally plan to use real-life footage of lift CCTV camera|
-|lift test 2|setting 1, low res, 10 samples|
-|lift test 3|setting 1, low res, 50 samples|
-|lift test 4|setting 2, low res, 200 samples|
-|lift test 5|setting 2, high res, 200 samples|
-|lift test 6|setting 3, high res, 200 samples|
-|lift test 7|setting 3, high res, 2000 samples, also include bounding boxes|
+|lift test 2|green floor, 320 x 180 px, 200 samples|
+|lift test 3|grey floor, 960 x 540 px, 50 samples|
+|lift test 4|grey floor, 320 x 180 px, 1000 samples, with bounding box|
 
 ## Python Codes
 Contain all image processing and computer vision python code 
