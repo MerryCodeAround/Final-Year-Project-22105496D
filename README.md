@@ -27,17 +27,11 @@ The main camera and scenario game object and hierarchy. Basically, each 'pos' ar
 ### Training data
 Contain all results from image generation from Unity project. Each iteration contain 4 files:
 
-| Image 1 | Image 2 |
+| Synthetic Image | Passenger Mask |
 |---------|---------|
 | ![Image 1](/pictures/camera.png) | ![Image 2](/pictures/passengerMask.png) |
-| Caption for Image 1: The original input image. | Caption for Image 2: The result of edge detection applied to the input image. |
-
-| Image 3 | Image 4 |
-|---------|---------|
+| Floor Mask | JSON file (annotations) |
 | ![Image 3](/pictures/floorMask.png) | ![Image 4](/pictures/jsonFile.jpg) |
-| Caption for Image 3: The binary mask obtained after thresholding the edge image. | Caption for Image 4: The final segmented output image after post-processing. |
-
-<img src="/pictures/floorMask.png" width="50%"><img src="/pictures/passengerMask.png" width="50%"><img src="/pictures/camera.png" width="50%"><img src="/pictures/jsonFile.jpg" width="50%">
 
 |Training Data|Description|
 |---|:---|
